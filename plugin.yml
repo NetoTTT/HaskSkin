@@ -1,0 +1,11 @@
+name: HaskSkin
+version: 1.0.0
+main: com.hask.skin.HaskSkin
+author: HaskDev
+description: Skin personalizada via URL
+
+commands:
+  skin:
+    description: Aplica skin via URL
+    usage: /skin <url>
+    aliases: [setskin]
