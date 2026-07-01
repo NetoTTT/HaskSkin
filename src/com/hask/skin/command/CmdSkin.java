@@ -22,7 +22,7 @@ public class CmdSkin implements CommandExecutor {
             return true;
         }
         if (args.length < 1) {
-            sender.sendMessage("\u00A7cUso: /skin <url da imagem PNG> \u00A7eou\u00A7c /skin <nome de player>");
+            sender.sendMessage("\u00A7cUso: /hskin <url da imagem PNG> \u00A7eou\u00A7c /hskin <nome de player>");
             return true;
         }
 

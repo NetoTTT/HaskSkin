@@ -5,7 +5,7 @@ author: HaskDev
 description: Skin personalizada via URL
 
 commands:
-  hskin:
-    description: Aplica skin via URL ou nome de player
-    usage: /hskin <url ou nome>
-    aliases: [customskin]
+  skin:
+    description: Aplica skin via URL
+    usage: /skin <url>
+    aliases: [setskin]

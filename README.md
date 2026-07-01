@@ -13,14 +13,16 @@ A lightweight Minecraft plugin for **PaperSpigot 1.8.8** that lets players set c
 
 | Command | Description |
 |---------|-------------|
-| `/skin <url>` | Set your skin from an image URL |
-| `/skin <playername>` | Copy another player's Mojang skin |
+| `/hskin <url>` | Set your skin from an image URL |
+| `/hskin <playername>` | Copy another player's Mojang skin |
+
+Aliases: `/customskin`
 
 ## Permissions
 
 | Permission | Description | Default |
 |------------|-------------|---------|
-| `hask.skin` | Allows use of `/skin` | `op` |
+| `hask.skin` | Allows use of `/hskin` | `op` |
 
 ## Requirements
 

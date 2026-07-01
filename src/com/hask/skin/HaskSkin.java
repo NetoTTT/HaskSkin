@@ -12,7 +12,7 @@ public class HaskSkin extends JavaPlugin {
         instance = this;
         getDataFolder().mkdirs();
         SkinManager.load();
-        getCommand("skin").setExecutor(new CmdSkin());
+        getCommand("hskin").setExecutor(new CmdSkin());
         getServer().getPluginManager().registerEvents(new SkinListener(), this);
         getLogger().info("HaskSkin ativado.");
     }
